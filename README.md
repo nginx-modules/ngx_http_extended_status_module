@@ -7,13 +7,6 @@ Nginx `status` module with finer details.
 installation, including patching the Nginx source and compiling Nginx with this
 module, as well as configuration instructions and examples, can be found below.*
 
-# Deprecated (EOL)
-
-**As of 2015-03-10, this fork of
-[ngx_http_extended_status_module](https://github.com/nginx-modules/ngx_http_extended_status_module)
-will no longer be maintained or updated for use with
-[Scribe](https://scribe.software)'s systems.**
-
 Moving forward, we have decided to *heavily fork* this module into its own, new,
 and distinct codebase at
 [scribenet/nginx-servats-module](https://github.com/scribenet/nginx-servats-module).
