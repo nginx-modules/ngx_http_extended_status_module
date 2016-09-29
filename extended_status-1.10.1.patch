@@ -509,7 +509,7 @@ index 7d6cada..0f3913c 100644
 +        {
 +            if (0 != state[i].status)
 +            {
-+                ms = (ngx_msec_int_t) (state[i].response_sec * 1000 + state [i].response_msec);
++                ms = state[i].response_time;
 +                ms = (0 <= ms) ? ms : 0;
 +                break;
 +            }
